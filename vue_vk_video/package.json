@@ -1,0 +1,26 @@
+{
+  "name": "vue_vk_video",
+  "version": "1.0.0",
+  "description": "Component for integrate vk-video to your project with programm controll of video",
+  "main": "VkVideoPlayer.vue",
+  "scripts": {
+    "test": "vk_video_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mihkek/vue_vk_video.git"
+  },
+  "keywords": [
+    "vue3",
+    "vk",
+    "vk_video",
+    "video",
+    "vue3-vk"
+  ],
+  "author": "mihdev_100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihkek/vue_vk_video/issues"
+  },
+  "homepage": "https://github.com/mihkek/vue_vk_video#readme"
+}
