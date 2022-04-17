@@ -1,4 +1,4 @@
-## vue_vk_video
+## vue3_vk_video
 
 ### Package for integrate vk-video to your project on vue-3 with programming controll of video
 ### It's works only on vue3!
@@ -8,13 +8,13 @@
 
 #### With this package you can integrate video from vk with programming controll, like play, pause, cathing\emiting different events
 ## Install
-    npm install vue_vk_video
+    npm install vue3_vk_video
    
    Or clone this repository
    
 ## Import
- import VkVideoPlayer from "vue_vk_video"
  
+    import VkVideoPlayer from "vue3_vk_video"
     export default {
       name: 'App',
       components: {
