@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import { createSrc } from "./functions"
-import "./vk_api"
+import { createSrc } from "./js/functions"
+import "./js/vk_api"
 
 
 
