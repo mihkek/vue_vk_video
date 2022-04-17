@@ -1,6 +1,7 @@
 # vue_vk_video
 
-# Package for integrate vk-video to your project with programm controll of video
+# Package for integrate vk-video to your project on vue-3 with programm controll of video
+# It's works only on vue3!
 # It's not the final version! I wil modificate it
 
 
