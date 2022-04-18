@@ -1,6 +1,6 @@
 {
   "name": "vue3_video_vk",
-  "version": "0.0.9",
+  "version": "1.0.1",
   "description": "Component for integrate vk-video to your project with programm controll of video",
   "main": "src/VkVideoPlayer.vue",
   "module": "src/VkVideoPlayer.vue",
