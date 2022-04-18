@@ -47,18 +47,26 @@ export default {
       this.$emit('ended')
     },
   },
+  updated(){
+     const iframe = document.getElementById(this.IframeId)
+         this.VK_Player = VK.VideoPlayer(iframe);
+         this.VK_Player.on(VK.VideoPlayer.Events.ENDED, function() {
+             this.onEnd()
+         }.bind(this))
+  },
   mounted(){
     this.src = createSrc(this.iframeCode)
     if(!this.src) return
 
     this.loaded = true
-    window.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('load', function() {
          const iframe = document.getElementById(this.IframeId)
          this.VK_Player = VK.VideoPlayer(iframe);
          this.VK_Player.on(VK.VideoPlayer.Events.ENDED, function() {
              this.onEnd()
          }.bind(this))
     }.bind(this))
+
   }
 }
 </script>

@@ -1,4 +1,4 @@
-## vue3_vk_video
+## vue3_video_vk
 
 ### Package for integrate vk-video to your project on vue-3 with programming controll of video
 ### It's works only on vue3!
@@ -14,7 +14,7 @@
    
 ## Import
  
-    import VkVideoPlayer from "vue3_vk_video"
+    import VkVideoPlayer from "vue3_video_vk/src/VkVideoPlayer.vue"
     export default {
       name: 'App',
       components: {
